@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Website</title>
+    <!-- Tailwind CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-16">Welcome To My <span class="font-semibold text-purple-600">Banking Website!</span></h1>
+    </header>
+    <main>
+        <section class="bg-pink-300 w-3/4 mx-auto mt-8 p-8">
+            <h3 class="text-2xl mb-4">Please Login</h3>
+                    <!-- form -->
+            <div>
+                <input class="border border-green-400 rounded block w-3/4 mb-4 px-6" type="text" placeholder="Your Email" id="user-email">
+                <input class="border border-green-400 rounded block w-3/4 mb-4 px-6" type="password" placeholder="Your Password" name="" id="user-password">
+
+                <button id="login-submit" class="bg-yellow-600 px-4 py-2 rounded text-white font-medium">Submit</button>
+            </div>
+        </section>
+    </main>
+    <!-- js file -->
+    <script src="js/login.js"></script>
+</body>
+</html>
